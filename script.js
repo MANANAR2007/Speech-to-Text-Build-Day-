@@ -35,7 +35,7 @@ stopBtn.addEventListener("click", function () {
     stopBtn.disabled = true;
 });
 
-// Live speech → textarea
+// Transcripting
 if (recognition) {
     recognition.onresult = function (e) {
         var text = "";
